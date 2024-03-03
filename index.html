@@ -4,25 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Lovers</title>
+    <!-- main css  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css  -->
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <!-- header  -->
     <header>
         <div class="container">
-            <div class="navbar">
-                <a href="index.html" class="logo"></a>
-                <div class="navbar__nav">
-                    <ul>
-                        <li class="navbar__items"><a href="#" class="navar__link">helo11</a></li>
-                        <li class="navbar__items"><a href="#" class="navar__link">helo21</a></li>
-                        <li class="navbar__items"><a href="#" class="navar__link">helo31</a></li>
-                        <li class="navbar__items"><a href="#" class="navar__link">helo41</a></li>
-                        <li class="navbar__items"><a href="#" class="navar__link">helo51</a></li>
-                    </ul>
+            <div class="flex navbar">
+                <!-- logo -->
+                <div class="navbar__logo flex">
+                    <a href="index.html" class="navbar__logo-img">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <h2 class="navbar__logo-text">Travel <span>lovers</span></h2>
                 </div>
+                <!-- navbar start -->
+                <ul class="navbar__nav flex">
+                    <li class="navbar__items"><a href="#" class="navbar__link">Home</a></li>
+                    <li class="navbar__items"><a href="#" class="navbar__link">Packages</a></li>
+                    <li class="navbar__items"><a href="#" class="navbar__link">Testimonial</a></li>
+                    <li class="navbar__items"><a href="#" class="navbar__link">Blog</a></li>
+                    <li class="navbar__items"><a href="#" class="navbar__link">Contact</a></li>
+                </ul>
+                <!-- navbar end  -->
             </div>
         </div>
     </header>
+    <!-- end header  -->
+    <!-- banner section -->
+    <section class="banner-section py-60" id="banner">
+        <div class="container">
+            <div class="banner text-white py-90">
+                <div class="banner__info">
+                    <h1 class="title text-center">Explore Your Travel</h1>
+                <p class="des text-center">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                </div>
+                <div class="banner__search flex">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="submit" class="" name="search" value="Find Now">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner section -->
 </body>
 </html>
